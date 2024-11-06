@@ -29,15 +29,13 @@
         }
     },
 
-    "articles": [
-        {
+    "articles": [{
             "id": "fun_facts",
             "component": "ArticleServices",
             "config": {},
             "locales": {},
 
-            "items": [
-                {
+            "items": [{
                     "icon": {
                         "img": null,
                         "fa": "fa-solid fa-tablet-screen-button",
@@ -162,7 +160,6 @@
                         }
                     }
                 }
-
             ]
         },
 
@@ -177,8 +174,7 @@
                 "ko": { "title": "**뉴스** 피드" }
             },
 
-            "items": [
-                {
+            "items": [{
                     "dates": {
                         "start": "09/01/2022",
                         "end": null
@@ -209,9 +205,7 @@
                         "start": "05/12/2023",
                         "end": null
                     },
-                    "links": [
-                        {"string": "see_more", "href": "https://youtube.com"}
-                    ],
+                    "links": [{ "string": "see_more", "href": "https://youtube.com" }],
                     "locales": {
                         "en": {
                             "title": "Started my own **YouTube channel**!",
@@ -263,9 +257,10 @@
                         "start": "12/12/2024",
                         "end": null
                     },
-                    "links": [
-                        { "string": "see_more", "href": "https://ryanbalieiro.github.io/react-portfolio-template/" }
-                    ],
+                    "links": [{
+                        "string": "see_more",
+                        "href": "https://ryanbalieiro.github.io/react-portfolio-template/"
+                    }],
                     "locales": {
                         "en": {
                             "title": "Launched my **personal website**!",
